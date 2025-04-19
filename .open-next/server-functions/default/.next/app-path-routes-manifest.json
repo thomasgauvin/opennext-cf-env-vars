@@ -1,6 +1,6 @@
 {
   "/api/env/route": "/api/env",
-  "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
   "/page": "/"
 }
