@@ -1,0 +1,22 @@
+{
+  "name": "opennextjs-env-example",
+  "compatibility_date": "2025-04-19",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./.open-next/worker.js",
+  "env": {
+    "production": {
+      "vars": {
+        "SERVER_API_KEY": "your-production-api-key-here"
+      }
+    },
+    "development": {
+      "vars": {
+        "SERVER_API_KEY": "your-development-api-key-here"
+      }
+    }
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}
