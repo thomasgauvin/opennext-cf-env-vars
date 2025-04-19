@@ -7,6 +7,9 @@
     "binding": "ASSETS",
     "directory": ".open-next/assets"
   },
+  "vars": {
+    "SERVER_API_KEY": "your-default-api-key-here"
+  },
   "env": {
     "production": {
       "vars": {
