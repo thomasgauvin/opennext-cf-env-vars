@@ -4,7 +4,7 @@
 export async function GET() {
   // Get Cloudflare context which includes env, cf, and ctx objects
   // Access the environment variable from Cloudflare
-  const apiKey = process.env?.SERVER_API_KEY || "Not defined";
+  const apiKey = process.env?.SERVER_API_KEY || "Not defined2";
 
   // Return the environment variable as JSON
   return Response.json({
